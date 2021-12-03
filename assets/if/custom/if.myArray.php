@@ -6,6 +6,8 @@
 // example:
 // [[if? &is=`A,B,C||A,B,C,D,E,F,G,H:myArray` &custom=`myArray` &then=`[+myArrayResult+]` ]] 
 // the input can also be a checkbox TV i.e. [*checkbox*] but it must be set with a comma delimiter
+//
+// See: https://forum.evo.im/d/176-if-or-modifiers-targeting-the-various-options-in-a-checkbox-tv/
 
 function myArray($subject, $operand) {
 	$modx = EvolutionCMS();
