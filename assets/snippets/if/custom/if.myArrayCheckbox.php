@@ -1,7 +1,7 @@
 <?php
 // Subject must be a valid document checkbox TV
 // Example:
-// [[if? &is=`checkbox:myArrayCheckbox` &custom=`myArrayCheckbox` &then=`Matched [+myArrayCheckboxResult+] Results` ]] 
+// [[if? &is=`TVName:myArrayCheckbox` &custom=`myArrayCheckbox` &then=`Matched [+myArrayCheckboxResult+] Results` ]] 
 //
 // this is more dynamic and only requires the TV name.  It will get the choosen documnet values and TV options from the TV Name
 // 
